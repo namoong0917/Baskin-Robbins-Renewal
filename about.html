@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1280">
+    <meta name="author" content="배스킨라빈스">
+    <meta name="keywords" content="baskinrobbins, br31, 배스킨라빈스, 배라, 베라">
+    <meta name="description" content="행복을 전하는 프리미엄 아이스크림, 배스킨라빈스 공식 홈페이지 입니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="배스킨라빈스">
+    <meta property="og:description" content="행복을 전하는 프리미엄 아이스크림, 배스킨라빈스 공식 홈페이지 입니다.">
+    <meta property="og:url" content="http://cnw0917.dothome.co.kr/baskin/">
+    <title>배스킨라빈스</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 라이브러리용 css는 위에 붙여야함 -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- csdd에 없는 특수ease, datepicker 달력 프로그램 사용시 필요 -->
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+    <header id="header">
+      <div class="top_area">
+        <div class="inner">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="images/Baskin-Robbins_logo_2022.png" alt="배스킨라빈스">
+            </a>
+          </h1>
+            <ul class="sns">
+              <li>
+                <a href="https://www.facebook.com/baskinrobbins.kr/" target="_blank">
+                  <img src="images/facebook-square-brands.png" alt="FACEBOOK">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/baskinrobbinskorea/" target="_blank">
+                  <img src="images/instagram-square-brands.png" alt="INSTAGRAM">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/BaskinrobbinsKR" target="_blank">
+                  <img src="images/twitter-square-brands.png" alt="TWITTER">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/baskinrobbinskorea" target="_blank">
+                  <img src="images/youtube-brands.png" alt="YOUTUBE">
+                </a>
+              </li>
+            </ul>
+            <ul class="util">
+              <li>
+                <a class="btn_login" href="#">로그인</a>
+              </li>
+              <li>
+                <a class="btn_service" href="#">고객센터</a>
+              </li>
+              <li>
+                <a class="btn_search" href="#"><img class="search" src="images/magnifying-glass-solid.png" alt="검색"></a>
+              </li>
+            </ul>
+        </div>
+      </div>
+      <nav class="gnb_wrap">
+        <ul class="gnb">
+                <li>
+                  <a href="menu01.html">이달의 맛</a>
+                  <ul class="depth01">
+                    <li>
+                      <a href="menu01.html"><img src="images/img_monthly_fom_220331.png" alt="사랑에빠진외계인"></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="menu01.html">메뉴</a>
+                  <ul class="depth02">
+                    <li>
+                      <a class="gnb_a" href="menu01.html">아이스크림</a>
+                    </li>
+                    <li>
+                      <a href="menu02.html">아이스크림케이크</a>
+                    </li>
+                    <li>
+                      <a href="menu03.html">음료</a>
+                    </li>
+                    <li>
+                      <a href="menu04.html">커피</a>
+                    </li>
+                    <li>
+                      <a href="menu05.html">디저트</a>
+                    </li>
+                    
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">영양성분 및 알레르기</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#" class="gnb_a">아이스크림</a>
+                    </li>
+                    <li>
+                      <a href="#">음료</a>
+                    </li>
+                    <li>
+                      <a href="#">커피</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">이벤트</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#" class="gnb_a">진행중이벤트</a>
+                    </li>
+                    <li>
+                      <a href="#">당첨자발표</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">스토어</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#" class="gnb_a">매장찾기</a>
+                    </li>
+                    <li>
+                      <a href="#">고객센터</a>
+                    </li>
+                    <li>
+                      <a href="#">단체주문</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="active" href="about.html">ABOUT</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="about.html" class="gnb_a">공지사항</a>
+                    </li>
+                    <li>
+                      <a href="about.html">보도자료</a>
+                    </li>
+                    <li>
+                      <a href="about.html">채용정보</a>
+                    </li>
+                    <li>
+                      <a href="about.html">점포개설문의</a>
+                    </li>
+                    <li>
+                      <a href="about.html">CONTACT US</a>
+                    </li>
+                  </ul>
+                </li>
+        </ul>
+      </nav>
+      
+    </header>
+    <div id="container" class="about_page">
+      <div class="sub_visual">
+        <h2>ABOUT</h2>
+      </div>
+      <div class="lnb_wrap">
+          <ul class="lnb">
+            <li class="active">
+              <a href="about.html">공지사항</a>
+            </li>
+            <li>
+              <a href="about.html">보도자료</a>
+            </li>
+            <li>
+              <a href="about.html">채용정보</a>
+            </li>
+            <li>
+              <a href="about.html">점포개설문의</a>
+            </li>
+            <li>
+              <a href="about.html">CONTACT US</a>
+            </li>
+          </ul>
+      </div>
+      <div class="contents">
+        <div class="inner">
+          <div class="notice_wrap">
+            <h4 class="tit">공지사항</h4>
+          </div>
+          <div class="board_area">
+            
+            <!-- 테이블 -->
+            <div class="sub_search">
+              <form>
+                <fieldset>
+                  <input name="search" type="text" maxlength="255" title="검색어 입력" placeholder="검색어를 입력해 주세요" autocomplete="off">
+                  <button class="faq_btn_search" type="submit">검색버튼</button>
+                </fieldset>
+              </form>
+            </div>
+
+            <div class="board_total">
+              <p>총 55 건의 게시글이 있습니다.</p>
+            </div>
+            <div class="tbl_board_wrap">
+              <table>
+                <caption>공지사항 테이블: 번호, 공지사항명, 날짜</caption>
+                <thead>
+                  <tr>
+                    <th class="col1">번호</th>
+                    <th class="col2">제목</th>
+                    <th class="col3">날짜</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>55</td>
+                    <td class="td_left">
+                      <a class="link_view" href="#">단체주문도 언제, 어디서나 배스킨라빈스!단체주문도 언제, 어디서나 배스킨라빈스!단체주문도 언제, 어디서나 배스킨라빈스!단체주문도 언제, 어디서나 배스킨라빈스!단체주문도 언제, 어디서나 배스킨라빈스!</a>
+                    </td>
+                    <td class="date">2022-02-11</td>
+                  </tr>
+                  <tr>
+                    <td>54</td>
+                    <td class="td_left"><a class="link_view" href="#">배스킨라빈스의 1월 신규 MD를 만나보세요!</a></td>
+                    <td class="date">2022-01-19</td>
+                  </tr>
+                  <tr>
+                    <td>53</td>
+                    <td class="td_left"><a class="link_view" href="#">배스킨라빈스의 스페셜 MD를 만나보세요!</a></td>
+                    <td class="date">2021-06-15</td>
+                  </tr>
+                  <tr>
+                    <td>52</td>
+                    <td class="td_left"><a class="link_view" href="#">Taste the Original 새로워진 그린티, 31요거트!</a></td>
+                    <td class="date">2021-06-15</td>
+                  </tr>
+                  <tr>
+                    <td>51</td>
+                    <td class="td_left"><a class="link_view" href="#">[신제품 출시] 밀탑의 시그니처 국내산 팥으로 더욱 맛있어진 팥빙수 블라스트 출시!</a></td>
+                    <td class="date">2021-05-20</td>
+                  </tr>
+                  <tr>
+                    <td>50</td>
+                    <td class="td_left"><a class="link_view" href="#">[신제품 출시] 밀탑의 시그니처 국내산 팥으로 더욱 맛있는 배라 빙수를 즐겨보세요!</a></td>
+                    <td class="date">2021-05-13</td>
+                  </tr>
+                  <tr>
+                    <td>49</td>
+                    <td class="td_left"><a class="link_view" href="#">[신제품 출시] 워터프로세스 방식으로 풍미는 보존, 카페인은 제거한 디카페인 커피 출시!</a></td>
+                    <td class="date">2021-04-30</td>
+                  </tr>
+                  <tr>
+                    <td>48</td>
+                    <td class="td_left"><a class="link_view" href="#">[신제품 출시] 달콤한 연유와 딸기 과육이 들어있는 딸기 연유 라떼 출시!</a></td>
+                    <td class="date">2021-03-17</td>
+                  </tr>
+                  <tr>
+                    <td>47</td>
+                    <td class="td_left"><a class="link_view" href="#">월리를 찾아라 닮은꼴 콘테스트 당첨자 발표</a></td>
+                    <td class="date">2020-12-22</td>
+                  </tr>
+                  <tr>
+                    <td>46</td>
+                    <td class="td_left"><a class="link_view" href="#">개인정보처리방침 변경 안내</a></td>
+                    <td class="date">2020-07-14</td>
+                  </tr>
+                  <tr>
+                    <td>45</td>
+                    <td class="td_left"><a class="link_view" href="#">[신제품 출시] 아이스크림과 함께 즐기는 배스킨라빙수 출시</a></td>
+                    <td class="date">2020-06-10</td>
+                  </tr>
+                  <tr>
+                    <td>44</td>
+                    <td class="td_left"><a class="link_view" href="#">배라를 배달로 먹방 콘테스트 수상자 발표</a></td>
+                    <td class="date">2020-05-15</td>
+                  </tr>
+                  <tr>
+                    <td>43</td>
+                    <td class="td_left"><a class="link_view" href="#">6월 이달의 맛 선거 투표 결과 발표</a></td>
+                    <td class="date">2020-04-29</td>
+                  </tr>
+                  <tr>
+                    <td>42</td>
+                    <td class="td_left"><a class="link_view" href="#">[신제품 출시] 깔끔한 산미와 따사로운 햇살같은 커피원두 카페브리즈 써니 출시!</a></td>
+                    <td class="date">2020-01-10</td>
+                  </tr>
+                  <tr>
+                    <td>41</td>
+                    <td class="td_left"><a class="link_view" href="#">[신제품 출시] 배스킨라빈스 커피와 함께하는 특별한 시간을 즐겨보세요!</a></td>
+                    <td class="date">2019-12-04</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- 페이징 -->
+            <div class="board_pagination_wrap">
+              <div class="board_pagination">
+                <a class="btn_paging prev" href="#">
+                </a>
+                <span class="number active">1</span>
+                <a class="number" href="#">2</a>
+                <a class="number" href="#">3</a>
+                <a class="number" href="#">4</a>
+                <a class="btn_paging next" href="#">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="top_wrap">
+          <a class="btn_top" href="#"><img src="images/circle-up-regular.png" alt="위로 이동"></a>
+        </div>
+        <nav class="top_area">
+          <div class="inner">
+            <ul class="footer_top">
+              <li>
+                <a href="#">채용문의</a>
+              </li>
+              <li>
+                <a href="#">윤리신고센터</a>
+              </li>
+              <li>
+                <a href="#">이용약관</a>
+              </li>
+              <li>
+                <a href="#">개인정보처리방침</a>
+              </li>
+              <li>
+                <a href="#">영상정보처리기기운영관리방침</a>
+              </li>
+              <li>
+                <a href="#">거래희망회사 사전등록</a>
+              </li>
+            </ul>
+            <div class="family_wrap">
+              <button class="btn_family" type="button">Family Site</button>
+              <ul class="family">
+                <li><a href="#">배스킨스쿨</a></li>
+                <li><a href="#">SPC그룹사이트</a></li>
+                <li><a href="#">SPCMAGAZINE</a></li>
+                <li><a href="#">BR코리아</a></li>
+                <li><a href="#">해피포인트카드</a></li>
+                <li><a href="#">파스쿠찌</a></li>
+                <li><a href="#">파리바게트</a></li>
+                <li><a href="#">던킨도너츠</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="bottom_area">
+        
+          <div class="inner">
+            <h2 class="bottom_logo">
+              <img src="images/footer_logo.png" alt="푸터로고">
+            </h2>
+            <div class="txt_wrap">
+              <p>사업자 등록번호 : 303-81-09535<span class="bar"></span>비알코리아(주) 대표이사 도세호<span class="bar"></span>서울특별시 서초구 남부순환로 2620(양재동 11-149번지)<br>TEL : 080-555-3131 개인정보관리책임자 : 김경우</p>
+              </div>
+              <div class="copyright">
+                <p>Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.</p>
+              </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

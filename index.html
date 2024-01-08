@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1280">
+    <meta name="author" content="배스킨라빈스">
+    <meta name="keywords" content="baskinrobbins, br31, 배스킨라빈스, 배라, 베라">
+    <meta name="description" content="행복을 전하는 프리미엄 아이스크림, 배스킨라빈스 공식 홈페이지 입니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="배스킨라빈스">
+    <meta property="og:description" content="행복을 전하는 프리미엄 아이스크림, 배스킨라빈스 공식 홈페이지 입니다.">
+    <meta property="og:url" content="http://cnw0917.dothome.co.kr/baskin/">
+    <title>배스킨라빈스 리뉴얼</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- csdd에 없는 특수ease, datepicker 달력 프로그램 사용시 필요 -->
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+    <header id="header">
+      <div class="top_area">
+        <div class="inner">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="images/Baskin-Robbins_logo_2022.png" alt="배스킨라빈스">
+            </a>
+          </h1>
+            <ul class="sns">
+              <li>
+                <a href="https://www.facebook.com/baskinrobbins.kr" target="_blank">
+                  <img src="images/facebook-square-brands.png" alt="FACEBOOK">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/baskinrobbinskorea" target="_blank">
+                  <img src="images/instagram-square-brands.png" alt="INSTAGRAM">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/BaskinrobbinsKR" target="_blank">
+                  <img src="images/twitter-square-brands.png" alt="TWITTER">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/baskinrobbinskorea" target="_blank">
+                  <img src="images/youtube-brands.png" alt="YOUTUBE">
+                </a>
+              </li>
+            </ul>
+            <ul class="util">
+              <li>
+                <a class="btn_login" href="#">로그인</a>
+              </li>
+              <li>
+                <a class="btn_service" href="#">고객센터</a>
+              </li>
+              <li>
+                <a class="btn_search" href="#"><img class="search" src="images/magnifying-glass-solid.png" alt="검색"></a>
+              </li>
+            </ul>
+        </div>
+      </div>
+      <nav class="gnb_wrap">
+        <ul class="gnb">
+                <li>
+                  <a href="menu01.html">이달의 맛</a>
+                  <ul class="depth01">
+                    <li>
+                      <a href="menu01.html"><img src="images/img_monthly_fom_220331.png" alt="사랑에빠진외계인"></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="menu01.html">메뉴</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="menu01.html" class="gnb_a">아이스크림</a>
+                    </li>
+                    <li>
+                      <a href="menu02.html">아이스크림케이크</a>
+                    </li>
+                    <li>
+                      <a href="menu03.html">음료</a>
+                    </li>
+                    <li>
+                      <a href="menu04.html">커피</a>
+                    </li>
+                    <li>
+                      <a href="menu05.html">디저트</a>
+                    </li>
+                    
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">영양성분 및 알레르기</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#" class="gnb_a">아이스크림</a>
+                    </li>
+                    <li>
+                      <a href="#">음료</a>
+                    </li>
+                    <li>
+                      <a href="#">커피</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">이벤트</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#" class="gnb_a">진행중이벤트</a>
+                    </li>
+                    <li>
+                      <a href="#">당첨자발표</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">스토어</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#" class="gnb_a">매장찾기</a>
+                    </li>
+                    <li>
+                      <a href="#">고객센터</a>
+                    </li>
+                    <li>
+                      <a href="#">단체주문</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="about.html">ABOUT</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="about.html" class="gnb_a">공지사항</a>
+                    </li>
+                    <li>
+                      <a href="about.html">보도자료</a>
+                    </li>
+                    <li>
+                      <a href="about.html">채용정보</a>
+                    </li>
+                    <li>
+                      <a href="about.html">점포개설문의</a>
+                    </li>
+                    <li>
+                      <a href="about.html">CONTACT US</a>
+                    </li>
+                  </ul>
+                </li>
+        </ul>
+      </nav>
+      
+    </header>
+    <div id="container">
+      <section class="main_slider_wrap">
+        <h2 class="blind">메인 이벤트 슬라이더</h2>
+        <div class="swiper-container main_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-color:#EB646A;">
+              <div class="inner">
+                <div class="img_wrap">
+                  <img src="./images/1720002612_0.png" alt="#사랑에빠진외계인" />
+                </div>
+                <div class="main_tit">
+                  <img src="images/hashtag_event.png" alt="HASHTAG EVENT">
+                    <span>인스타그램에 사진을 올려주세요!</span>
+                    <h2>#사랑에빠진외계인</h2>
+                    <p>기간<span class="bar"></span>2022년 3월 21일(월) ~ 8월 3일(수)</p>
+                    <a class="btn_more" href="#">자세히 보기</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" style="background-color:#f6f7f7;">
+              <div class="inner">
+                <div class="img_wrap">
+                  <a href="#"><img src="images/1667440402.png" alt="T멤버십 회원 대상 싱글레귤러 최대 50% OFF 또는 적립" /> </a>
+                </div>
+              </div>
+            </div>   
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev btn_arrow"></div>
+          <div class="swiper-button-next btn_arrow"></div>
+          <button class="btn_pause" type="button">일시정지</button>
+        </div>
+      </section>
+      <section class="main_popular">
+        <div class="main_popular_slider_wrap">
+          <div class="inner">
+            <h2>인기메뉴</h2>
+            <div class="swiper-container main_popular_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/1619856326.png" alt="엄마는외계인 블라스트">
+                    <span class="mb_title">엄마는 외계인 블라스트</span>
+                    <div class="mb_txt">
+                      <span>사이즈</span>
+                      <span>regular</span>
+                    </div>
+                    <div class="mb_txt">
+                      <span>아이스크림 선택</span>
+                      <span>불가</span>
+                    </div>
+                    <p class="mb_txt3">배스킨라빈스의 대표 아이스크림<br>
+                    BR의 시그니처 블라스트</p>
+                    <div class="mb_btn">
+                      <a href="#">구매하기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/1452062882.png" alt="체리쥬빌레 아이스크림">
+                  <span class="mb_title">체리쥬빌레</span>
+                    <div class="mb_txt">
+                      <span>사이즈</span>
+                      <span>ALL</span>
+                    </div>
+                    <div class="mb_txt">
+                      <span>콘 선택</span>
+                      <span>컵 or 콘 선택</span>
+                    </div>
+                    <p class="mb_txt3">체리과육이 탱글탱글 씹히는<br>
+                      체리 아이스크림</p>
+                    <div class="mb_btn">
+                      <a href="#">구매하기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/1530778136.png" alt="레인보우 샤베트 아이스크림">
+                  <span class="mb_title">레인보우 샤베트</span>
+                    <div class="mb_txt">
+                      <span>사이즈</span>
+                      <span>ALL</span>
+                    </div>
+                    <div class="mb_txt">
+                      <span>콘 선택</span>
+                      <span>컵 or 콘 선택</span>
+                    </div>
+                    <p class="mb_txt3">상큼한 파인애플, 오렌지,<br>
+                      라즈베리 샤베트</p>
+                    <div class="mb_btn">
+                      <a href="#">구매하기</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next2"></div>
+              <div class="swiper-button-prev2"></div>
+          </div>
+        </div>
+      </section>
+      <section class="main_banner">
+        <h2 class="blind">메인 배너</h2>
+        <img class="mb_bg" src="./images/center_banner.jpg" alt="">
+        <div class="mb_content">
+          <img class="mb_logo" src="./images/Baskin-Robbins_logo_2022.png" alt="">
+          <span>배스킨라빈스의 변신 <br> 새로운 변신이 궁금하다면?</span>
+          <p>APP 설치하고 다양한 혜택을 받으세요!</p>
+          <div class="mb_app_icon">
+            <button><img class="icon01" src="./images/google-play-badge.png" alt="구글플레이 바로가기"></button>
+            <button><img class="icon02" src="./images/Download_on_the_App_Store.png" alt="앱스토어 바로가기"></button>
+          </div>
+        </div>
+      </section>
+      <section class="main_menu">
+        <h2>배라 대표 메뉴</h2>
+        <div class="mm_content">
+          <div class="mm_content_l">
+            <p>NEW</p>
+            <div class="swiper-container main_best_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="menu02.html"><img src="images/mama_love_cake.png" alt="사랑에 빠진 외계인 케이크"></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="menu03.html"><img src="images/mama_love_blast.png" alt="사랑에 빠진 외계인 블라스트"></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="menu04.html"><img src="images/31_americano.png" alt="카페31 아메리카노"></a>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <div class="mm_content_r">
+            <ul>
+              <li>
+                <a href="menu01.html">
+                  <div class="mm_crc">
+                    <p>아이스크림</p>
+                    <img src="./images/sb_mama.png" alt="엄마는 외계인">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="menu02.html">
+                <div class="mm_crc">
+                  <p>아이스크림 케이크</p>
+                  <img src="./images/apeach.png" alt="시크릿 어피치">
+                </div>
+                </a>
+              </li>
+              <li>
+                <a href="menu04.html">
+                <div class="mm_crc">
+                  <p>커피</p>
+                  <img src="./images/31_americano.png" alt="카페31 아메리카노">
+                </div>
+                </a>
+              </li>
+              <li>
+                <a href="menu03.html">
+                  <div class="mm_crc">
+                    <p>음료</p>
+                    <img src="./images/mama_blast.png" alt="엄마는 외계인 블라스트">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="menu05.html">
+                  <div class="mm_crc">
+                    <p>디저트</p>
+                    <img src="./images/salt_milk_mochi.png" alt="소금우유 아이스 모찌">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="menu02.html">
+                  <div class="mm_crc">
+                    <p>선물</p>
+                    <img src="./images/img06.png" alt="선물">
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="main_service">
+        <h2 class="blind">메인 서비스</h2>
+        <div class="ms_content">
+          <div class="ms_serch">
+            <div class="ms_serch_txt">
+              <span>매장 찾기</span>
+              <p>원하시는 서비스를 골라<br>
+              가까운매장을 찾아보세요</p>
+              <img src="images/map.png" alt="지도검색">
+              <a href="#">바로 가기</a>
+            </div>
+          </div>
+          <div class="ms_delivery">
+            <span>배달 서비스</span>
+            <p class="txt_br">배스킨라빈스<br>
+              모바일 사전 주문 &amp; 배달 서비스</p>
+            <p class="txt_call">배달 콜센터 010-8822-9636</p>
+            <p class="txt_db">주문에서 결제 &amp; 배송까지 간편하게!</p>
+            <img src="./images/delivery.png" alt="배달서비스">
+          </div>
+          <div class="ms_open">
+            <span>점포개설문의</span>
+            <p>아이스크림 전문기업<br>배스킨라빈스와 함께 하세요.</p>
+            <img src="./images/open.png" alt="개설문의">
+            <a href="about.html">바로 가기</a>
+          </div>
+        </div>
+      </section>
+      <section class="main_youtube">
+        <h2>배라 쇼츠 영상</h2>
+        <div class="my_yt_wrap clearfix">
+          <div class="my_yt1">
+            <video muted controls loop autoplay src="vid/vid1.mp4" >
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div>
+          <div class="my_yt2">
+            <video muted controls loop autoplay src="vid/vid2.mp4" >
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div>
+          <div class="my_yt3">
+            <video muted controls loop autoplay src="vid/vid3.mp4" >
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="main_sns">
+        <h2>SNS</h2>
+        <div class="logo_wrap">
+          <a href="https://www.facebook.com/baskinrobbins.kr" target="_blank"><img src="images/facebook-square-brands_lower.png" alt="페이스북"></a>
+          <a href="https://www.instagram.com/baskinrobbinskorea" target="_blank"><img src="images/instagram-square-brands_lower.png" alt="인스타그램"></a>
+          <a href="https://twitter.com/BaskinrobbinsKR" target="_blank"><img src="images/twitter-square-brands_lower.png" alt="트위터"></a>
+          <a href="https://www.youtube.com/user/baskinrobbinskorea" target="_blank"><img src="images/youtube-brands_lower.png" alt="유튜브"></a>
+        </div>
+        <p>BASKIN-ROBBINS INSTAGRAM</p>
+        <div class="img_wrap">
+          <a href="#" class="img1"><img src="images/insta1.jpg" alt="@Instagram"></a>
+          <a href="#" class="img2"><img src="images/insta2.jpg" alt="@Instagram"></a>
+          <a href="#" class="img3"><img src="images/insta3.jpg" alt="@Instagram"></a>
+          <a href="#" class="img4"><img src="images/insta4.jpg" alt="@Instagram"></a>
+          <a href="#" class="img5"><img src="images/insta5.jpg" alt="@Instagram"></a>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="top_wrap">
+          <a class="btn_top" href="#"><img src="images/circle-up-regular.png" alt="위로 이동"></a>
+        </div>
+        <nav class="top_area">
+          <div class="inner">
+            <ul class="footer_top">
+              <li>
+                <a href="#">채용문의</a>
+              </li>
+              <li>
+                <a href="#">윤리신고센터</a>
+              </li>
+              <li>
+                <a href="#">이용약관</a>
+              </li>
+              <li>
+                <a href="#">개인정보처리방침</a>
+              </li>
+              <li>
+                <a href="#">영상정보처리기기운영관리방침</a>
+              </li>
+              <li>
+                <a href="#">거래희망회사 사전등록</a>
+              </li>
+            </ul>
+            <div class="family_wrap">
+              <button class="btn_family" type="button">Family Site</button>
+              <ul class="family">
+                <li><a href="#">배스킨스쿨</a></li>
+                <li><a href="#">SPC그룹사이트</a></li>
+                <li><a href="#">SPCMAGAZINE</a></li>
+                <li><a href="#">BR코리아</a></li>
+                <li><a href="#">해피포인트카드</a></li>
+                <li><a href="#">파스쿠찌</a></li>
+                <li><a href="#">파리바게트</a></li>
+                <li><a href="#">던킨도너츠</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="bottom_area">
+          <div class="inner">
+            <h2 class="bottom_logo">
+              <img src="images/footer_logo.png" alt="배스킨라빈스">
+            </h2>
+            <div class="txt_wrap">
+              <p>사업자 등록번호 : 303-81-09535<span class="bar"></span>비알코리아(주) 대표이사 도세호<span class="bar"></span>서울특별시 서초구 남부순환로 2620(양재동 11-149번지)<br>TEL : 080-555-3131 개인정보관리책임자 : 김경우</p>
+              </div>
+              <div class="copyright">
+                <p>Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.</p>
+              </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
