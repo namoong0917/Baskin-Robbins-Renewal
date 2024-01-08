@@ -15,7 +15,7 @@
 ### 🎨 Style Guide
 ![스타일 가이드](https://github.com/namoong0917/Baskin-Robbins-Renewal/assets/103318401/faa71679-6a0c-4802-b397-f7b8f7bb4635)
   
-### 🎨 Responsive Preview
+### 🎨 Adaptive Preview
 #### - main
 ![메인_최종](https://github.com/namoong0917/Baskin-Robbins-Renewal/assets/103318401/c990663d-9fa3-4b28-8858-880c46f4c454)
 ![메인_최종_hover](https://github.com/namoong0917/Baskin-Robbins-Renewal/assets/103318401/17ef90df-aedb-45ec-a8e8-d7d18ab49b1c)
